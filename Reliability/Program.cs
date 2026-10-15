@@ -115,4 +115,5 @@ namespace Reliability
         [EmailAddress(ErrorMessage = "Указан неправильный формат email.")]
         public string Email { get; set; }
     }
+    // Проверка данных заказа автомойки
 }
